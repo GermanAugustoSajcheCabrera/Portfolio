@@ -136,7 +136,7 @@ section {
 
 
 .image-box {
-    width: 100%;
+    width: 50%;
     height: auto;
     background-color: #444;
     object-fit: cover;
