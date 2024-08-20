@@ -108,11 +108,16 @@ section {
     text-align: center;
 }
 
-.about-section, .gallery-section, .projects-section, .contact-section {
+.about-section, .projects-section, .contact-section {
     background-color: #222;
     margin-top: 30px;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-section{
+    padding: 60px 20px;
+    background-color: #222;
 }
 
 /* Gallery Styles */
@@ -131,9 +136,10 @@ section {
 
 
 .image-box {
-    width: auto;
+    width: 100%;
     height: auto;
     background-color: #444;
+    object-fit: cover;
     border-radius: 15px;
     box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.5);
 }
