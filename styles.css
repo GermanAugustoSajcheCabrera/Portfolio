@@ -150,7 +150,7 @@ body {
 }
 
 /* Projects Section */
-.projects-section {
+.projects-section, .contact-section{
     padding: 60px 20px;
     background-color: #222;
     margin-top: 30px;
@@ -211,7 +211,7 @@ body {
 /* Social Icons */
 .social-links {
     margin-top: 20px;
-    
+    text-align: center;
 }
 
 .social-icon {
