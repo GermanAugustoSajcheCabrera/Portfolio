@@ -115,37 +115,30 @@ section {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-.gallery-section{
+/* Gallery Section */
+.gallery-section {
     padding: 60px 20px;
     background-color: #222;
 }
 
-/* Gallery Styles */
 .image-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust the min size for responsiveness */
     gap: 20px;
 }
 
+.image-box {
+    width: 100%; /* Full width of the grid column */
+    height: 200px; /* Fixed height */
+    overflow: hidden;
+}
 
 .image-box img {
     width: 100%;
-    height: auto; /* Maintains aspect ratio */
-    object-fit: cover; /* Ensures the image covers the box without distortion */
-    border-radius: 15px;
-    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-
-/*
-.image-box {
-    width: 100%;
-    height: auto;
-    background-color: #444;
+    height: 100%;
     object-fit: cover;
     border-radius: 15px;
-    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.5);
-}*/
+}
 
 /* Project Styles */
 .project-list {
