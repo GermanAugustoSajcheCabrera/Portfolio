@@ -124,6 +124,7 @@ body {
 .gallery-section {
     padding: 60px 20px;
     background-color: #222;
+    text-align: center;
 }
 
 .image-gallery {
@@ -191,6 +192,7 @@ body {
     border: none;
     background-color: #333;
     color: #FFD700;
+    text-align: center;
 }
 
 .contact-form textarea {
@@ -213,6 +215,7 @@ body {
     color: #FFD700;
     margin: 0 10px;
     transition: color 0.3s;
+    text-align: center;
 }
 
 .social-icon:hover {
