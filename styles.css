@@ -127,11 +127,6 @@ section {
     gap: 20px;
 }
 
-.image-box {
-    width: 100%; /* Full width of the grid column */
-    height: 200px; /* Fixed height */
-    overflow: hidden;
-}
 
 .image-box img {
     width: 100%;
