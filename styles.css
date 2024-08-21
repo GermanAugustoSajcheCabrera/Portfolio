@@ -95,6 +95,7 @@ body {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
 }
 
 .cta-button:hover {
@@ -198,16 +199,19 @@ body {
 .contact-form textarea {
     height: 100px;
     resize: none;
+    text-align: center;
 }
 
 .contact-form button {
     width: 100%;
     margin-top: 10px;
+    text-align: center;
 }
 
 /* Social Icons */
 .social-links {
     margin-top: 20px;
+    text-align: center;
 }
 
 .social-icon {
