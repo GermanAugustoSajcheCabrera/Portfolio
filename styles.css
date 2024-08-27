@@ -73,11 +73,11 @@ body {
     background-repeat: no-repeat; /* Prevents the image from repeating */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     text-align: center;
     /*background: #333; /*linear-gradient(to bottom, #000000, #333333)*/
     position: relative;
-    padding-top: 500px;
+    padding-top: 0px;
 }
 
 .header-content h1 {
