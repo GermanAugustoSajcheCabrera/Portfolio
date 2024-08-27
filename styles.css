@@ -154,7 +154,7 @@ body {
 }
 
 /* Projects Section */
-.projects-section, .contact-section{
+.projects-section {
     padding: 60px 20px;
     background-color: #222;
     margin-top: 30px;
@@ -188,6 +188,38 @@ body {
     margin-bottom: 10px;
 }
 
+/* Contact Section with GIF Background */
+.contact-section {
+    padding: 60px 20px;
+    background-image: url('images/fabric.gif'); /* Path to your GIF */
+    background-size: cover; /* Ensures the GIF covers the entire section */
+    background-position: center; /* Centers the GIF */
+    background-repeat: no-repeat; /* Prevents the GIF from repeating */
+    position: relative; /* Allows overlay and text to be positioned properly */
+    color: #FFD700; /* Text color that contrasts with the background */
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Optional shadow for the section */
+}
+
+/* Optional: Adding a semi-transparent overlay to improve text readability */
+.contact-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    z-index: 1; /* Places the overlay above the GIF but below the content */
+}
+
+/* Ensure the content is above the overlay */
+.contact-section-content {
+    position: relative;
+    z-index: 2; /* Places the content above the overlay */
+}
+
 /* Contact Form */
 .contact-form input, .contact-form textarea {
     width: 100%;
@@ -210,6 +242,15 @@ body {
     width: 100%;
     margin-top: 10px;
     text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Optional: Add a background color to the form itself */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 /* Social Icons */
