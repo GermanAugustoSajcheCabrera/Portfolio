@@ -177,7 +177,7 @@ body {
 /* Contact Section with GIF Background */
 .contact-section {
     padding: 60px 20px;
-    background-image: url('circuit.gif'); /* Replace with the path to your GIF */
+    background-image: url('images/circuit.gif'); /* Replace with the path to your GIF */
     background-size: cover; /* Ensures the GIF covers the entire section */
     background-position: center; /* Centers the GIF */
     background-repeat: no-repeat; /* Prevents the GIF from repeating */
