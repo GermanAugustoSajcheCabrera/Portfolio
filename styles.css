@@ -57,7 +57,7 @@ body {
 .menu-toggle {
     display: none;
     cursor: pointer;
-    color: #FFD700;
+    color: #FFD700; 
 }
 
 .menu-toggle i {
