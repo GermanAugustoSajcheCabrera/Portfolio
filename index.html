@@ -45,39 +45,49 @@
         </div>
     </section>
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery-section">
-        <div class="content">
-            <h2>Gallery</h2>
-            <div class="image-gallery">
-                
-                <div class="image-box">
-                    <img src="images/automatedata.gif" alt="Automate all your data">
-                    <p>Automate all your data</p>
-                </div>
-                
-                <div class="image-box">
-                    <img src="images/financeautomation.gif" alt="Finance Automation">
-                    <p>Finance Automation</p>
-                </div>
-
-                <div class="image-box">
-                    <img src="images/mailautomation.gif" alt="Mail Automation">
-                    <p>Mail Automation</p>
-                </div>
-
-                <div class="image-box">
-                    <img src="images/multipledata.gif" alt="Multiple Data Automation">
-                    <p>Multiple Data Automation</p>
-                </div>
-
-                <div class="image-box">
-                    <img src="images/fastcat.gif" alt="Fast Cat">
-                    <p>Fast Cat</p>
-                </div>
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+    <div class="content">
+        <h2>Gallery</h2>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/automatedata.gif" alt="Automate all your data">
+                <p>Automate all your data</p>
             </div>
+            <div class="mySlides fade">
+                <img src="images/financeautomation.gif" alt="Finance Automation">
+                <p>Finance Automation</p>
+            </div>
+            <div class="mySlides fade">
+                <img src="images/mailautomation.gif" alt="Mail Automation">
+                <p>Mail Automation</p>
+            </div>
+            <div class="mySlides fade">
+                <img src="images/multipledata.gif" alt="Multiple Data Automation">
+                <p>Multiple Data Automation</p>
+            </div>
+            <div class="mySlides fade">
+                <img src="images/fastcat.gif" alt="Fast Cat">
+                <p>Fast Cat</p>
+            </div>
+
+            <!-- Navigation Controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-    </section>
+        <br>
+        
+        <!-- Dots/Indicators -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
+    </div>
+</section>
+
 
     <!-- Projects Section -->
     <section id="projects" class="projects-section">
