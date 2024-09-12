@@ -13,7 +13,7 @@ showSlides(); // Initialize slideshow
 
 function showSlides() {
     let i;
-    const slides = document.getElementsByClassName("mySlides");
+    const slides = document.getElementsByClassName("image-box");
     const dots = document.getElementsByClassName("dot");
 
     // Hide all slides
@@ -50,6 +50,7 @@ function currentSlide(n) {
     slideIndex = n - 1; // Adjust slideIndex to match selected dot
     showSlides();
 }
+
 
 
 
