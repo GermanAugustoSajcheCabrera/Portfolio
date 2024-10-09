@@ -138,7 +138,7 @@
 */
 
 .contact-form button {
-    background-image: linear-gradient(to right, #304352 0%, #d7d2cc 51%, #304352 100%);
+            background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);
             margin: 10px;
             padding: 15px 45px;
             text-align: center;
@@ -146,10 +146,11 @@
             transition: 0.5s;
             background-size: 200% auto;
             color: white;
-            font-weight: 1000; /* Added for thicker font */
+            font-weight: bold; /* Thicker font */
+            font-size: 20px; /* Increased font size */
             box-shadow: 0 0 20px #eee;
             border-radius: 10px;
-            display: block; 
+            display: block;
 
 }
 .contact-form button:hover {
