@@ -114,9 +114,31 @@
     background-color: #333;
     color: #FFD700;
 }
-
+/*
 .btn-grad {
             background-image: linear-gradient(to right, #304352 0%, #d7d2cc 51%, #304352 100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            font-weight: 1000; // Added for thicker font 
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block; 
+          }
+
+          .btn-grad:hover {
+            background-position: right center; // change the direction of the change here 
+            color: #fff;
+            text-decoration: none;
+          }
+*/
+
+.contact-form button {
+    background-image: linear-gradient(to right, #304352 0%, #d7d2cc 51%, #304352 100%);
             margin: 10px;
             padding: 15px 45px;
             text-align: center;
@@ -128,28 +150,8 @@
             box-shadow: 0 0 20px #eee;
             border-radius: 10px;
             display: block; 
-          }
 
-          .btn-grad:hover {
-            background-position: right center; /* change the direction of the change here */
-            color: #fff;
-            text-decoration: none;
-          }
-
-.contact-form button {
-    background-image: linear-gradient(to right, #304352 0%, #d7d2cc  51%, #304352  100%);
-    margin: 10px;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;            
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-    display: block;
 }
-
 .contact-form button:hover {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
