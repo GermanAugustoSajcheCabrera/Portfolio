@@ -116,17 +116,18 @@
 }
 
 .btn-grad {
-            background-image: linear-gradient(to right, #304352 0%, #d7d2cc  51%, #304352  100%);
+            background-image: linear-gradient(to right, #304352 0%, #d7d2cc 51%, #304352 100%);
             margin: 10px;
             padding: 15px 45px;
             text-align: center;
             text-transform: uppercase;
             transition: 0.5s;
             background-size: 200% auto;
-            color: white;            
+            color: white;
+            font-weight: bold; /* Added for thicker font */
             box-shadow: 0 0 20px #eee;
             border-radius: 10px;
-            display: block;
+            display: block; 
           }
 
           .btn-grad:hover {
